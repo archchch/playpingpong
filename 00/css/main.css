@@ -1,0 +1,252 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+    overflow-y: hidden
+}
+
+body {
+    position: relative;
+    min-width: 1200px;
+    font-family: "Dotum", "Arial", sans-serif;
+    font-size: 12px;
+    color: #333;
+    background: white
+}
+
+.posNum {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 50px;
+    margin: -25px 0 0 -150px;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999
+}
+
+.scrollBox {
+    min-width: 1200px;
+    height: 100%;
+    position: relative
+}
+
+.scrollBox .wrap {
+    min-width: 1200px;
+    position: relative;
+    overflow: hidden
+}
+
+.scrollBox .wrap > div {
+    position: relative
+}
+
+.scrollBox .wrap .objs > li {
+    position: absolute;
+    left: 50%
+}
+
+#header {}
+
+
+#scene01 {
+    height: 1082px;
+    background: #f5f5f7;
+}
+
+.img1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*scene01 end*/
+
+
+
+#scene02 {
+    height: 3344px;
+    background: #191919;
+}
+
+.img2{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img2_1{
+    position: absolute;
+    left: 262px;
+    top: 117px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene02 .img2_1.on{opacity: 1; transform: translate(0,0);}
+
+.img2_2{
+    position: absolute;
+    left: 262px;
+    top: 750px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene02 .img2_2.on{opacity: 1; transform: translate(0,0);}
+
+
+.img2_3{
+    position: absolute;
+    left: 262px;
+    top: 1546px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene02 .img2_3.on{opacity: 1; transform: translate(0,0);}
+
+
+.img2_4{
+    position: absolute;
+    left: 262px;
+    top: 3025px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene02 .img2_4.on{opacity: 1; transform: translate(0,0);}
+
+/*scene02 end*/
+
+#scene03 {
+    height: 5403px;
+    background: #191919;
+}
+
+.img3{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#scene03 .video1{
+    left: 262px;
+    top: 57px;
+    width: 1402px;
+    height: 750px;
+    overflow: hidden;
+    position: relative;
+}
+
+#scene03 .video1 > video{position: absolute; left: 70%; margin-left: -1000px; top: -50px;}
+
+#visual{
+    width: 1400px;
+    height: 750px;
+    position: absolute;
+    left: 262px;
+    top: 57px;
+}
+
+.img3_2{
+    position: absolute;
+    left: 262px;
+    bottom: 1151px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene03 .img3_2.on{opacity: 1; transform: translate(0,0);}
+
+
+.img3_3{
+    position: absolute;
+    left: 262px;
+    bottom: 331px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene03 .img3_3.on{opacity: 1; transform: translate(0,0);}
+/*scene03 end*/
+
+#scene04 {
+    height: 6535px;
+    background: #f5f5f7;
+}
+
+.img4{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img4_1{
+    position: absolute;
+    left: 263px;
+    top: 117px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene04 .img4_1.on{opacity: 1; transform: translate(0,0);}
+
+.img4_2{
+    position: absolute;
+    left: 263px;
+    bottom: 2141px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene04 .img4_2.on{opacity: 1; transform: translate(0,0);}
+/*scene04 end*/
+
+#scene05 {
+    height: 1771px;
+    background: #191919;
+}
+
+.img5{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img5_1{
+    position: absolute;
+    left: 263px;
+    top: 119px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene05 .img5_1.on{opacity: 1; transform: translate(0,0);}
+
+.img5_2{
+    position: absolute;
+    left: 263px;
+    bottom: 178px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene05 .img5_2.on{opacity: 1; transform: translate(0,0);}
+/*scene05 end*/
+
+

@@ -1,0 +1,703 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+    overflow-y: hidden
+}
+
+body {
+    position: relative;
+    min-width: 1200px;
+    font-family: "Dotum", "Arial", sans-serif;
+    font-size: 12px;
+    color: #333;
+    background: white
+}
+
+.posNum {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 50px;
+    margin: -25px 0 0 -150px;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999
+}
+
+.scrollBox {
+    min-width: 1200px;
+    height: 100%;
+    position: relative
+}
+
+.scrollBox .wrap {
+    min-width: 1200px;
+    position: relative;
+    overflow: hidden
+}
+
+.scrollBox .wrap > div {
+    position: relative
+}
+
+.scrollBox .wrap .objs > li {
+    position: absolute;
+    left: 50%
+}
+
+#header {
+    width: 100%;
+    height: 82px;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+#header .logo{
+    position: absolute;
+    left: 44px;
+    top: 29px;
+}
+
+#header .gnb{
+    position: absolute;
+    left: 188px;
+    top: 29px;
+}
+
+#header .gnb > li{
+    margin-right: 30px;
+    float: left;
+}
+
+#header .gnb > li:last-child{margin-right: 0;}
+
+#header .logo1{
+    position: absolute;
+    right: 128px;
+    top: 29px;
+}
+/*header end*/
+
+
+#scene01 {
+    height: 1112px;
+    background: #ffffff;
+}
+
+#scene01 .video1{
+    left: 0;
+    top: 83px;
+    width: 1920px;
+    height: 1030px;
+    overflow: hidden;
+    position: relative;
+}
+
+#scene01 .video1 > video{position: absolute; left: 0; top: -50px;}
+
+#visual{
+    width: 1920px;
+    height: 1030px;
+    position: absolute;
+    left: 0;
+    top: 83px;
+}
+/*scene01 end*/
+
+
+#scene02 {
+    height: 1249px;
+    background: #fff;
+}
+
+#main_slides{
+    width: 1920px;
+    height: 1249px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#main_slides .slidesjs-previous{
+    width: 72px;
+    height: 79px;
+    background: url("../img/arrow1.png") no-repeat left top;
+    position: absolute;
+    right: 0;
+    top: 541px;
+    cursor: pointer;
+    z-index: 100;
+    text-indent: -9999px;
+}
+
+#main_slides .slidesjs-next{
+    width: 72px;
+    height: 79px;
+    background: url("../img/arrow2.png") no-repeat left top;
+    position: absolute;
+    right: 0;
+    top: 626px;
+    cursor: pointer;
+    z-index: 100;
+    text-indent: -9999px;
+}
+
+
+#main_slides .slidesjs-pagination{
+    width: 48px;
+    height: 14px;
+    position: absolute;
+    left: 936px;
+    bottom: 34px;
+    z-index: 100;
+}
+
+#main_slides .slidesjs-pagination .slidesjs-pagination-item{
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 20px;
+    text-indent: -9999px;
+}
+
+#main_slides .slidesjs-pagination .slidesjs-pagination-item:last-child{
+    margin-right: 0;
+}
+
+#main_slides .slidesjs-pagination .slidesjs-pagination-item > a{
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #bcbcc0;
+    border-radius: 50%;
+}
+
+
+#main_slides .slidesjs-pagination .slidesjs-pagination-item > a.active{
+    background: #191919;
+}
+
+.title1{
+    position: absolute;
+    left: 259px;
+    top: 147px;
+    z-index: 100;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene02 .title1.on{opacity: 1; transform: translate(0,0);}
+
+
+.txt1{
+    position: absolute;
+    left: 258px;
+    top: 261px;
+    z-index: 100;
+}
+
+/*scene02 end*/
+
+#scene03 {
+    height: 1818px;
+    background: #fff;
+}
+
+.title2{
+    position: absolute;
+    left: 773px;
+    top: 219px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene03 .title2.on{opacity: 1; transform: translate(0,0);}
+
+.txt2{
+    position: absolute;
+    left: 767px;
+    top: 334px;
+}
+
+.box1 { width:451px; height:454px; position:absolute; left:259px; top:492px; cursor:pointer;}
+.box1 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
+.box1:hover img:last-child { opacity:0 }
+
+.box2 { width:451px; height:454px; position:absolute; left: 735px; top: 492px; cursor:pointer;}
+.box2 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
+.box2:hover img:last-child { opacity:0 }
+
+.box3 { width:451px; height:454px; position:absolute; left: 1211px; top: 492px; cursor:pointer;}
+.box3 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
+.box3:hover img:last-child { opacity:0 }
+
+.box4 { width:451px; height:454px; position:absolute; left: 259px; top: 972px; cursor:pointer;}
+.box4 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
+.box4:hover img:last-child { opacity:0 }
+
+.box5 { width:451px; height:454px; position:absolute; left: 735px; top: 972px; cursor:pointer;}
+.box5 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
+.box5:hover img:last-child { opacity:0 }
+
+.box6 { width:451px; height:454px; position:absolute; left: 1211px; top: 972px; cursor:pointer;}
+.box6 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
+.box6:hover img:last-child { opacity:0 }
+
+.button1{
+    position: absolute;
+    left: 824px;
+    top: 1544px;
+    cursor: pointer;
+}
+
+/*scene03 end*/
+
+#scene04 {
+    height: 1226px;
+    background: #fff;
+}
+
+#main_slides2{
+    width: 1920px;
+    height: 955px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#main_slides2 .slidesjs-previous{
+    width: 74px;
+    height: 79px;
+    background: url("../img/arrow3.png") no-repeat left top;
+    position: absolute;
+    left: 974px;
+    top: 644px;
+    cursor: pointer;
+    z-index: 100;
+    text-indent: -9999px;
+}
+
+#main_slides2 .slidesjs-next{
+    width: 74px;
+    height: 79px;
+    background: url("../img/arrow4.png") no-repeat left top;
+    position: absolute;
+    left: 1054px;
+    top: 644px;
+    cursor: pointer;
+    z-index: 100;
+    text-indent: -9999px;
+}
+
+.title3{
+    position: absolute;
+    left: 1174px;
+    top: 153px;
+    z-index: 100;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene04 .title3.on{opacity: 1; transform: translate(0,0);}
+
+.txt3{
+    position: absolute;
+    left: 1174px;
+    top: 230px;
+    z-index: 100;
+}
+
+.circle{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    z-index: 100;
+}
+
+.circle2{
+    position: absolute;
+    left: 1706px;
+    top: 840px;
+    z-index: 100;
+}
+
+.button2{
+    position: absolute;
+    left: 1174px;
+    top: 478px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+/*scene04 end*/
+
+
+#scene05 {
+    height: 2664px;
+    background: #fff;
+}
+
+.banner1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title4{
+    position: absolute;
+    left: 259px;
+    top: 280px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene05 .title4.on{opacity: 1; transform: translate(0,0);}
+
+.button3{
+    position: absolute;
+    left: 259px;
+    top: 468px;
+    cursor: pointer;
+}
+
+.title5{
+    position: absolute;
+    left: 259px;
+    top: 992px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene05 .title5.on{opacity: 1; transform: translate(0,0);}
+
+.txt5{
+    position: absolute;
+    left: 1198px;
+    top: 1284px;
+}
+
+.button4{
+    position: absolute;
+    left: 495px;
+    top: 1280px;
+    cursor: pointer;
+}
+
+.button5{
+    position: absolute;
+    left: 258px;
+    top: 1252px;
+    cursor: pointer;
+}
+
+.button6{
+    position: absolute;
+    left: 968px;
+    top: 1556px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.banner2{
+    position: absolute;
+    left: 0;
+    top: 1999px;
+}
+
+.title6{
+    position: absolute;
+    left: 259px;
+    top: 2237px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene05 .title6.on{opacity: 1; transform: translate(0,0);}
+
+/*scene05 end*/
+
+#scene06 {
+    height: 1206px;
+    background: #fff;
+}
+
+.banner3{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title7{
+    position: absolute;
+    left: 753px;
+    top: 212px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene06 .title7.on{opacity: 1; transform: translate(0,0);}
+
+.box7 { width:673px; height:610px; position:absolute; left: 259px; top: 272px; cursor:pointer;}
+.box7 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
+.box7:hover img:last-child { opacity:0 }
+
+.box8 { width:673px; height:610px; position:absolute; left: 987px; top: 272px; cursor:pointer;}
+.box8 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
+.box8:hover img:last-child { opacity:0 }
+
+/*scene06 end*/
+
+#scene07 {
+    height: 1546px;
+    background: #fff;
+}
+
+#main_slides3{
+    width: 1920px;
+    height: 1546px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#main_slides3 .slidesjs-previous{
+    width: 74px;
+    height: 80px;
+    background: url("../img/arrow5.png") no-repeat left top;
+    position: absolute;
+    left: 934px;
+    top: 1150px;
+    cursor: pointer;
+    z-index: 100;
+    text-indent: -9999px;
+}
+
+#main_slides3 .slidesjs-next{
+    width: 74px;
+    height: 80px;
+    background: url("../img/arrow6.png") no-repeat left top;
+    position: absolute;
+    left: 1014px;
+    top: 1150px;
+    cursor: pointer;
+    z-index: 100;
+    text-indent: -9999px;
+}
+
+.title8{
+    position: absolute;
+    left: 1103px;
+    top: 359px;
+    z-index: 100;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene07 .title8.on{opacity: 1; transform: translate(0,0);}
+
+.txt8{
+    position: absolute;
+    left: 1103px;
+    top: 618px;
+    z-index: 100;
+}
+/*scene07 end*/
+
+#scene08 {
+    height: 886px;
+    background: #fff;
+}
+
+.button7{
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.button8{
+    position: absolute;
+    left: 960px;
+    top: 0;
+    cursor: pointer;
+}
+
+.button9{
+    position: absolute;
+    left: 960px;
+    top: 437px;
+    cursor: pointer;
+}
+
+/*scene08 end*/
+
+#scene09 {
+    height: 2483px;
+    background: #fff;
+}
+
+.banner3{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title9{
+    position: absolute;
+    left: 258px;
+    top: 390px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene09 .title9.on{opacity: 1; transform: translate(0,0);}
+
+.spinimage{
+    position: absolute;
+    left: 1587px;
+    top: 1459px;
+    -webkit-animation: spin 12s infinite linear;
+    -o-animation: spin 12s infinite linear;
+    -moz-animation: spin 12s infinite linear;
+    animation: spin 12s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin {
+    0%  {-moz-transform: rotate(0deg);}
+    100% {-moz-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    0%  {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.title10{
+    position: absolute;
+    left: 1131px;
+    top: 1986px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene09 .title10.on{opacity: 1; transform: translate(0,0);}
+
+/*scene09 end*/
+
+#scene10 {
+    height: 944px;
+    background: #fff;
+}
+
+#main_slides4{
+    width: 1920px;
+    height: 518px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#main_slides4 .slidesjs-previous{
+    width: 73px;
+    height: 79px;
+    background: url("../img/arrow7.png") no-repeat left top;
+    position: absolute;
+    right: 0;
+    top: 141px;
+    cursor: pointer;
+    z-index: 100;
+    text-indent: -9999px;
+}
+
+#main_slides4 .slidesjs-next{
+    width: 73px;
+    height: 79px;
+    background: url("../img/arrow8.png") no-repeat left top;
+    position: absolute;
+    right: 0;
+    top: 226px;
+    cursor: pointer;
+    z-index: 100;
+    text-indent: -9999px;
+}
+
+.title11{
+    position: absolute;
+    left: 259px;
+    top: 150px;
+    z-index: 100;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene10 .title11.on{opacity: 1; transform: translate(0,0);}
+
+.txt11{
+    position: absolute;
+    left: 259px;
+    top: 222px;
+    z-index: 100;
+}
+
+.button10{
+    position: absolute;
+    left: 259px;
+    top: 308px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.top_button{
+    position: fixed;
+    right: 2%;
+    bottom: 50px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 1s;
+    opacity : 0;
+}
+
+.top_button.on {
+    opacity: 1;
+}
+
+/*scene10 end*/
+
+
+#footer {
+    height: 629px;
+    background: #fff;
+    position: relative
+}
+
+.foot{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*footer end*/

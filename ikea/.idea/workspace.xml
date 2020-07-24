@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36ee5c64-3128-4dda-9135-e409f2994e48" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>header</find>
+      <find>receipt</find>
+      <find>visual</find>
+      <find>contents01</find>
+      <find>contents04</find>
+      <find>#scene01 .img</find>
+    </findStrings>
+  </component>
+  <component name="ProjectId" id="1X9YZpQSK179JBU1zYIRENx0TOV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36ee5c64-3128-4dda-9135-e409f2994e48" name="Default Changelist" comment="" />
+      <created>1580459835691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580459835691</updated>
+      <workItem from="1580459838284" duration="2462000" />
+      <workItem from="1580772944020" duration="9878000" />
+      <workItem from="1581058067617" duration="439000" />
+      <workItem from="1581058737981" duration="15425000" />
+      <workItem from="1581341075653" duration="41641000" />
+      <workItem from="1581928120443" duration="37000" />
+      <workItem from="1582003377783" duration="1869000" />
+      <workItem from="1582006565475" duration="806000" />
+      <workItem from="1582007701056" duration="6442000" />
+      <workItem from="1582015064994" duration="445000" />
+      <workItem from="1582015591152" duration="9361000" />
+      <workItem from="1582595909628" duration="5859000" />
+      <workItem from="1582608094011" duration="2233000" />
+      <workItem from="1582610519388" duration="2554000" />
+      <workItem from="1582613833876" duration="34344000" />
+      <workItem from="1582657536207" duration="447000" />
+      <workItem from="1582702387916" duration="349000" />
+      <workItem from="1582801202569" duration="67000" />
+      <workItem from="1582885411822" duration="105000" />
+      <workItem from="1582885588173" duration="389000" />
+      <workItem from="1585303705336" duration="764000" />
+      <workItem from="1585305691351" duration="915000" />
+      <workItem from="1585308322629" duration="1754000" />
+      <workItem from="1585310138514" duration="1038000" />
+      <workItem from="1585311960882" duration="778000" />
+      <workItem from="1585313792502" duration="555000" />
+      <workItem from="1585315749398" duration="494000" />
+      <workItem from="1585317609202" duration="598000" />
+      <workItem from="1585319442808" duration="593000" />
+      <workItem from="1585321255159" duration="598000" />
+      <workItem from="1585323067295" duration="595000" />
+      <workItem from="1585323779634" duration="1131000" />
+      <workItem from="1585325639606" duration="927000" />
+      <workItem from="1585327674862" duration="633000" />
+      <workItem from="1585365738561" duration="553000" />
+      <workItem from="1585368074091" duration="356000" />
+      <workItem from="1585371387863" duration="504000" />
+      <workItem from="1585373552986" duration="151000" />
+      <workItem from="1585376805887" duration="564000" />
+      <workItem from="1585378637466" duration="380000" />
+      <workItem from="1585380446174" duration="394000" />
+      <workItem from="1585382342310" duration="597000" />
+      <workItem from="1585384585676" duration="584000" />
+      <workItem from="1585387244225" duration="558000" />
+      <workItem from="1585471088706" duration="25000" />
+      <workItem from="1585928263734" duration="157000" />
+      <workItem from="1586374623258" duration="2000" />
+      <workItem from="1586831690439" duration="19000" />
+      <workItem from="1590599907572" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="172" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585378100424">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="172" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.949@0.23.1680.949" timestamp="1581896665039" />
+    <state x="172" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.952@0.23.1680.952" timestamp="1585310422905" />
+    <state x="172" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.954@0.23.1680.954" timestamp="1585378100424" />
+    <state x="560" y="313" key="com.intellij.ide.util.TipDialog" timestamp="1586831691066">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="560" y="313" key="com.intellij.ide.util.TipDialog/0.23.1680.946@0.23.1680.946" timestamp="1586831691066" />
+    <state x="517" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1582613835938" />
+    <state x="560" y="315" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1585382501443" />
+    <state x="560" y="315" key="com.intellij.ide.util.TipDialog/0.23.1680.954@0.23.1680.954" timestamp="1585928264307" />
+    <state x="560" y="315" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1585303715530" />
+    <state x="517" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1581341076450" />
+    <state x="517" y="334" key="com.intellij.ide.util.TipDialog/0.23.1680.960@0.23.1680.960" timestamp="1582885587644" />
+    <state x="588" y="305" width="670" height="676" key="search.everywhere.popup" timestamp="1581069807763">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="588" y="305" width="670" height="676" key="search.everywhere.popup/0.23.1680.949@0.23.1680.949" timestamp="1581069807763" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/main.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

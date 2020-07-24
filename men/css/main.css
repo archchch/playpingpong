@@ -1,0 +1,299 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+    overflow-y: hidden
+}
+
+body {
+    position: relative;
+    min-width: 1200px;
+    font-family: "Dotum", "Arial", sans-serif;
+    font-size: 12px;
+    color: #333;
+    background: white
+}
+
+.posNum {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 50px;
+    margin: -25px 0 0 -150px;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999
+}
+
+.scrollBox {
+    min-width: 1200px;
+    height: 100%;
+    position: relative
+}
+
+.scrollBox .wrap {
+    min-width: 1200px;
+    position: relative;
+    overflow: hidden
+}
+
+.scrollBox .wrap > div {
+    position: relative
+}
+
+.scrollBox .wrap .objs > li {
+    position: absolute;
+    left: 50%
+}
+
+#header {
+    width: 100%;
+    height: 82px;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+#header .logo{
+    position: absolute;
+    left: 44px;
+    top: 29px;
+}
+
+#header .gnb{
+    position: absolute;
+    left: 188px;
+    top: 29px;
+}
+
+#header .gnb > li{
+    margin-right: 30px;
+    float: left;
+}
+
+#header .gnb > li:last-child{margin-right: 0;}
+
+#header .logo1{
+    position: absolute;
+    right: 128px;
+    top: 29px;
+}
+
+/*header end*/
+
+
+#scene01 {
+    height: 889px;
+    background: #fff;
+}
+
+.img1{
+    position: absolute;
+    left: 0;
+    top: 82px;
+}
+
+/*scene01 end*/
+
+#scene02 {
+    height: 1038px;
+    background: #fff;
+}
+
+.img2{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title1{
+    position: absolute;
+    left: 403px;
+    top: 363px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene02 .title1.on{opacity: 1; transform: translate(0,0);}
+
+/*scene02 end*/
+
+#scene03 {
+    height: 853px;
+    background: #fff;
+}
+
+.img3{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title2{
+    position: absolute;
+    left: 774px;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene03 .title2.on{opacity: 1; transform: translate(0,0);}
+
+/*scene03 end*/
+
+#scene04 {
+    height: 960px;
+    background: #fff;
+}
+
+.img4{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title3{
+    position: absolute;
+    left: 1237px;
+    top: 329px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene04 .title3.on{opacity: 1; transform: translate(0,0);}
+
+
+/*scene04 end*/
+
+#scene05 {
+    height: 1774px;
+    background: #fff;
+}
+
+.img5{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title4{
+    position: absolute;
+    left: 830px;
+    top: 192px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene05 .title4.on{opacity: 1; transform: translate(0,0);}
+
+/*scene05 end*/
+
+#scene06 {
+    height: 1327px;
+    background: #fff;
+}
+
+.img6{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title5{
+    position: absolute;
+    left: 771px;
+    top: 196px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene06 .title5.on{opacity: 1; transform: translate(0,0);}
+
+/*scene06 end*/
+
+#scene07 {
+    height: 2069px;
+    background: #fff;
+}
+
+.img7{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title6{
+    position: absolute;
+    left: 260px;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene07 .title6.on{opacity: 1; transform: translate(0,0);}
+
+.title7{
+    position: absolute;
+    left: 619px;
+    top: 945px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene07 .title7.on{opacity: 1; transform: translate(0,0);}
+
+/*scene07 end*/
+
+#scene08 {
+    height: 1806px;
+    background: #fff;
+}
+
+.img8{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title8{
+    position: absolute;
+    left: 764px;
+    top: 188px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene08 .title8.on{opacity: 1; transform: translate(0,0);}
+
+.top_button{
+    position: fixed;
+    right: 2%;
+    bottom: 50px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 1s;
+    opacity : 0;
+}
+
+.top_button.on {
+    opacity: 1;
+}
+
+
+/*scene08 end*/
+
+

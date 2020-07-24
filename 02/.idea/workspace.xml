@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf324512-4f58-44a8-88d7-706a225ea22a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1ePKb4jImmye4L7quMH7wCjJUPp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf324512-4f58-44a8-88d7-706a225ea22a" name="Default Changelist" comment="" />
+      <created>1594217855762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594217855762</updated>
+      <workItem from="1594217857203" duration="160000" />
+      <workItem from="1594218089003" duration="19000" />
+      <workItem from="1594224007980" duration="1753000" />
+      <workItem from="1594225791643" duration="557000" />
+      <workItem from="1594226377626" duration="1659000" />
+      <workItem from="1594228178155" duration="1811000" />
+      <workItem from="1594230342114" duration="1692000" />
+      <workItem from="1594232151209" duration="285000" />
+      <workItem from="1594233254434" duration="105000" />
+      <workItem from="1594233410957" duration="605000" />
+      <workItem from="1594235985967" duration="1433000" />
+      <workItem from="1594238363422" duration="49000" />
+      <workItem from="1594243294187" duration="14000" />
+      <workItem from="1594255959611" duration="1304000" />
+      <workItem from="1594257744802" duration="86000" />
+      <workItem from="1594260317833" duration="104000" />
+      <workItem from="1594260644177" duration="212000" />
+      <workItem from="1594289392823" duration="54000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="299" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594231448339">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="299" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.946@0.23.1680.946" timestamp="1594231448339" />
+    <state x="555" y="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594236378364">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="555" y="399" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.946@0.23.1680.946" timestamp="1594236378364" />
+    <state x="563" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1594257745439">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="563" y="304" key="com.intellij.ide.util.TipDialog/0.23.1680.946@0.23.1680.946" timestamp="1594257745439" />
+    <state x="565" y="221" width="670" height="58" key="search.everywhere.popup" timestamp="1594231576304">
+      <screen x="0" y="23" width="1680" height="946" />
+    </state>
+    <state x="565" y="221" width="670" height="58" key="search.everywhere.popup/0.23.1680.946@0.23.1680.946" timestamp="1594231576304" />
+  </component>
+</project>

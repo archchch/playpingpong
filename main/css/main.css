@@ -1,0 +1,976 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/** base **/
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    position: relative;
+}
+
+.posNum {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 50px;
+    margin: -25px 0 0 -150px;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999;
+}
+
+
+/** scrollBox **/
+.container {
+    height: 100%;
+    position: relative;
+    top: 1080px;
+    transition: all 1s
+}
+
+.container.on {
+    top: 0;
+}
+
+.container .main {
+    position: relative;
+    overflow: hidden;
+}
+
+/*first page in*/
+
+#intro1 {
+    width: 100%;
+    height: 1080px;
+    position: fixed;
+    left: 0;
+    transition: all 1s
+}
+
+/*intro end*/
+
+#intro2 {
+    width: 100%;
+    height: 1080px;
+    position: fixed;
+    left: 0;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+/*intro2 end*/
+
+#intro3 {
+    width: 100%;
+    height: 1080px;
+    position: fixed;
+    left: 0;
+    transition: all 1s;
+}
+
+#intro3 .box {
+    background: #e8e8e8;
+    width: 1122px;
+    height: 1200px;
+}
+
+#intro1.on{top:0;}
+#intro2.on{top:0;}
+#intro3.on{top:0;}
+#intro1.out{top:-1080px;}
+#intro2.out{top:-1080px;}
+#intro3.out{top:-1080px;}
+#intro2{top:1080px;}
+#intro3{top:1080px;}
+
+
+
+/*intro3 end*/
+
+#intro1 {
+    background: #191919;
+}
+
+.logo{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 83px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.logo1{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 83px;
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.logo1_1{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    width: 385px;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.logo1_2{
+    background: #ffffff;
+    position: absolute;
+    left: 386px;
+    width: 1236px;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.t1{
+    position: absolute;
+    left: 80px;
+    top: 29px;
+}
+
+.t2{
+    position: absolute;
+    left: 1635px;
+    top: 29px;
+}
+
+.t3{
+    position: absolute;
+    left: 80px;
+    top: 92px;
+}
+
+.t4{
+    position: absolute;
+    left: 400px;
+    top: 92px;
+}
+
+.t5{
+    position: absolute;
+    left: 1635px;
+    top: 92px;
+}
+
+.logo2{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 76px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+}
+
+.index00{
+    position: absolute;
+    left: 81px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.index01{
+    position: absolute;
+    left: 514px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.index02{
+    position: absolute;
+    left: 941px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.index03{
+    position: absolute;
+    left: 1374px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.index04{
+    position: absolute;
+    left: 1806px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.you{
+    position: absolute;
+    left: 78px;
+    top: 218px;
+}
+
+.table{
+    position: absolute;
+    left: 1281px;
+    top: 410px;
+}
+
+.ping{
+    position: absolute;
+    left: 1281px;
+    bottom: 140px;
+}
+
+/*intro1 end*/
+
+#intro2 {
+    background: #ffffff;
+}
+
+.logo3{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 83px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.logo4{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 83px;
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.logo4_1{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    width: 385px;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.logo4_2{
+    background: #ffffff;
+    position: absolute;
+    left: 386px;
+    width: 1236px;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.t1_1{
+    position: absolute;
+    left: 80px;
+    top: 29px;
+}
+
+.t2_1{
+    position: absolute;
+    left: 1635px;
+    top: 29px;
+}
+
+.t3_1{
+    position: absolute;
+    left: 80px;
+    top: 92px;
+}
+
+.t4_1{
+    position: absolute;
+    left: 400px;
+    top: 92px;
+}
+
+.t5_1{
+    position: absolute;
+    left: 1635px;
+    top: 92px;
+}
+
+.logo5{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 76px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    z-index: 2;
+}
+
+
+.index00_1{
+    position: absolute;
+    left: 81px;
+    bottom: 27px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.index01_1{
+    position: absolute;
+    left: 514px;
+    bottom: 27px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.index02_1{
+    position: absolute;
+    left: 941px;
+    bottom: 27px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.index03_1{
+    position: absolute;
+    left: 1374px;
+    bottom: 27px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.index04_1{
+    position: absolute;
+    left: 1806px;
+    bottom: 27px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.background{
+    position: absolute;
+    left: 0;
+    top: 116px;
+    width: 640px;
+    height: 100%;
+    background: #191919;
+    z-index: 1;
+}
+
+.about{
+    position: absolute;
+    left: 77px;
+    top: 213px;
+    z-index: 2;
+}
+
+.hi{
+    position: absolute;
+    left: 687px;
+    top: 213px;
+    z-index: 2;
+}
+
+.we{
+    position: absolute;
+    right: 78px;
+    bottom: 114px;
+    z-index: 2;
+}
+
+.spinimage{
+    position: absolute;
+    right: 357px;
+    bottom: 129px;
+    z-index: 3;
+    -webkit-animation: spin 6s infinite linear;
+    -o-animation: spin 6s infinite linear;
+    -moz-animation: spin 6s infinite linear;
+    animation: spin 6s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin {
+    0%  {-moz-transform: rotate(0deg);}
+    100% {-moz-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    0%  {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/*intro2 end*/
+
+
+#scene01 {
+    height: 5054px;
+    background: #191919;
+}
+
+#main_header {
+    width: 100%;
+    height: 117px;
+    position : absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+}
+
+#main_header.fix {
+    transition: all 1s;
+    position: fixed;
+    z-index: 9999;
+}
+
+
+
+.logo6{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 83px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.logo7{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 83px;
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.logo7_1{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    width: 385px;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.logo7_2{
+    background: #ffffff;
+    position: absolute;
+    left: 386px;
+    width: 1236px;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.t1_1{
+    position: absolute;
+    left: 80px;
+    top: 29px;
+}
+
+.t2_1{
+    position: absolute;
+    left: 1635px;
+    top: 29px;
+}
+
+.t3_1{
+    position: absolute;
+    left: 80px;
+    top: 92px;
+}
+
+.t4_1{
+    position: absolute;
+    left: 400px;
+    top: 92px;
+}
+
+.t5_1{
+    position: absolute;
+    left: 1635px;
+    top: 92px;
+}
+
+
+.title1{
+    position: absolute;
+    left: 400px;
+    top: 186px;
+}
+
+.txt1{
+    position: absolute;
+    left: 400px;
+    top: 233px;
+}
+
+.title1_1{
+    position: absolute;
+    left: 934px;
+    top: 186px;
+}
+
+#scene01 .box1 {
+    width: 907px;
+    height: 605px;
+    /*background: orange;*/
+    position : absolute;
+    left: 934px;
+    top: 233px;
+    /*opacity : 0;*/
+    overflow : hidden;
+}
+
+#scene01 .box1 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+#scene01 .box1 img:hover {
+    transform: scale(1.1);
+
+}
+
+
+.title2{
+    position: absolute;
+    left: 400px;
+    top: 918px;
+}
+
+.txt2{
+    position: absolute;
+    left: 400px;
+    top: 964px;
+}
+
+.title2_1{
+    position: absolute;
+    left: 934px;
+    top: 918px;
+}
+
+
+#scene01 .box2 {
+    width: 907px;
+    height: 605px;
+    /*background: orange;*/
+    position : absolute;
+    left: 934px;
+    top: 964px;
+    /*opacity : 0;*/
+    overflow : hidden;
+}
+
+#scene01 .box2 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+#scene01 .box2 img:hover {
+    transform: scale(1.1);
+
+}
+
+.title3{
+    position: absolute;
+    left: 400px;
+    top: 1647px;
+}
+
+.txt3{
+    position: absolute;
+    left: 400px;
+    top: 1695px;
+}
+
+.title3_1{
+    position: absolute;
+    left: 934px;
+    top: 1647px;
+}
+
+#scene01 .box3 {
+    width: 907px;
+    height: 605px;
+    /*background: orange;*/
+    position : absolute;
+    left: 934px;
+    top: 1695px;
+    /*opacity : 0;*/
+    overflow : hidden;
+}
+
+#scene01 .box3 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+#scene01 .box3 img:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+.title4{
+    position: absolute;
+    left: 400px;
+    top: 2378px;
+}
+
+.txt4{
+    position: absolute;
+    left: 400px;
+    top: 2426px;
+}
+
+.title4_1{
+    position: absolute;
+    left: 934px;
+    top: 2378px;
+}
+
+#scene01 .box4 {
+    width: 907px;
+    height: 605px;
+    /*background: orange;*/
+    position : absolute;
+    left: 934px;
+    top: 2426px;
+    /*opacity : 0;*/
+    overflow : hidden;
+}
+
+#scene01 .box4 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+#scene01 .box4 img:hover {
+    transform: scale(1.1);
+
+}
+
+
+.title5{
+    position: absolute;
+    left: 400px;
+    top: 3109px;
+}
+
+.txt5{
+    position: absolute;
+    left: 400px;
+    top: 3158px;
+}
+
+.title5_1{
+    position: absolute;
+    left: 934px;
+    top: 3109px;
+}
+
+#scene01 .box5 {
+    width: 907px;
+    height: 605px;
+    /*background: orange;*/
+    position : absolute;
+    left: 934px;
+    top: 3158px;
+    /*opacity : 0;*/
+    overflow : hidden;
+}
+
+#scene01 .box5 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+#scene01 .box5 img:hover {
+    transform: scale(1.1);
+
+}
+
+.logo8{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 3973px;
+    width: 100%;
+    height: 76px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+}
+
+
+
+.index00_2{
+    position: absolute;
+    left: 81px;
+    top: 4000px;
+    cursor: pointer;
+}
+
+.index01_2{
+    position: absolute;
+    left: 514px;
+    top: 4000px;
+    cursor: pointer;
+}
+
+.index02_2{
+    position: absolute;
+    left: 941px;
+    top: 4000px;
+    cursor: pointer;
+}
+
+.index03_2{
+    position: absolute;
+    left: 1374px;
+    top: 4000px;
+    cursor: pointer;
+}
+
+.index04_2{
+    position: absolute;
+    left: 1806px;
+    top: 4000px;
+    cursor: pointer;
+}
+
+
+.logo9{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 4049px;
+    width: 100%;
+    height: 83px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    z-index: 2;
+}
+
+.logo10{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 4132px;
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    z-index: 2;
+}
+
+.logo10_1{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    width: 385px;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 2;
+}
+
+.logo10_2{
+    background: #ffffff;
+    position: absolute;
+    left: 386px;
+    width: 1236px;
+    height: 34px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 2;
+}
+
+.t1_2{
+    position: absolute;
+    left: 80px;
+    top: 4078px;
+    z-index: 3;
+}
+
+.t2_2{
+    position: absolute;
+    left: 1635px;
+    top: 4078px;
+    z-index: 3;
+}
+
+.t3_2{
+    position: absolute;
+    left: 80px;
+    top: 4140px;
+    z-index: 3;
+}
+
+.t4_2{
+    position: absolute;
+    left: 400px;
+    top: 4140px;
+    z-index: 3;
+}
+
+.t5_2{
+    position: absolute;
+    left: 1635px;
+    top: 4140px;
+    z-index: 3;
+}
+
+
+
+.contact{
+    position: absolute;
+    left: 78px;
+    top: 4262px;
+}
+
+.phone{
+    position: absolute;
+    left: 78px;
+    top: 4659px;
+}
+
+.mail{
+    position: absolute;
+    left: 78px;
+    top: 4772px;
+    cursor: pointer;
+}
+
+/*scene01 end*/
+
+
+
+#footer {
+    width: 100%;
+    height: 76px;
+    background: #191919;
+    position: relative
+}
+
+#footer .logo11{
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 76px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+}
+
+.index00_3{
+    position: absolute;
+    left: 81px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.index01_3{
+    position: absolute;
+    left: 514px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.index02_3{
+    position: absolute;
+    left: 941px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.index03_3{
+    position: absolute;
+    left: 1374px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.index04_3{
+    position: absolute;
+    left: 1806px;
+    bottom: 27px;
+    cursor: pointer;
+}
+/*footer end*/
+
+

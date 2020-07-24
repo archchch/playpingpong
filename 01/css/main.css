@@ -1,0 +1,493 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+    overflow-y: hidden
+}
+
+body {
+    position: relative;
+    min-width: 1200px;
+    font-family: "Dotum", "Arial", sans-serif;
+    font-size: 12px;
+    color: #333;
+    background: white
+}
+
+.posNum {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 50px;
+    margin: -25px 0 0 -150px;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999
+}
+
+.scrollBox {
+    min-width: 1200px;
+    height: 100%;
+    position: relative
+}
+
+.scrollBox .wrap {
+    min-width: 1200px;
+    position: relative;
+    overflow: hidden
+}
+
+.scrollBox .wrap > div {
+    position: relative
+}
+
+.scrollBox .wrap .objs > li {
+    position: absolute;
+    left: 50%
+}
+
+#header {}
+
+
+#scene01 {
+    height: 1082px;
+    background: #f5f5f7;
+}
+
+.img1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*scene01 end*/
+
+
+
+#scene02 {
+    height: 3487px;
+    background: #191919;
+}
+
+.img2{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img2_1{
+    position: absolute;
+    left: 263px;
+    top: 117px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene02 .img2_1.on{opacity: 1; transform: translate(0,0);}
+
+.img3_1{
+    position: absolute;
+    left: 263px;
+    top: 751px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene02 .img3_1.on{opacity: 1; transform: translate(0,0);}
+
+.phone3_1{
+    position: absolute;
+    left: 466px;
+    top: 1071px;
+}
+
+.play01{
+    position: absolute;
+    left: 1069px;
+    top: 1286px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone3_2{
+    position: absolute;
+    left: 1054px;
+    top: 1271px;
+}
+
+.play02{
+    position: absolute;
+    left: 1069px;
+    bottom: 346px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone3_3{
+    position: absolute;
+    left: 1054px;
+    bottom: 332px;
+}
+
+
+/*scene02 end*/
+
+
+
+#scene03 {
+    height: 1205px;
+    background: #191919;
+}
+
+.img4{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img4_1{
+    position: absolute;
+    left: 263px;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene03 .img4_1.on{opacity: 1; transform: translate(0,0);}
+
+.img4_2{
+    position: absolute;
+    left: 263px;
+    top: 666px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene03 .img4_2.on{opacity: 1; transform: translate(0,0);}
+/*scene03 end*/
+
+
+
+#scene04 {
+    height: 1635px;
+    background: #191919;
+}
+
+.img5{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img5_1{
+    position: absolute;
+    left: 263px;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene04 .img5_1.on{opacity: 1; transform: translate(0,0);}
+
+.play03{
+    position: absolute;
+    left: 1110px;
+    bottom: 348px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone5{
+    position: absolute;
+    left: 1093px;
+    bottom: 334px;
+}
+/*scene04 end*/
+
+
+#scene05 {
+    height: 322px;
+    background: #191919;
+}
+
+.img6{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img6_1{
+    position: absolute;
+    left: 262px;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene05 .img6_1.on{opacity: 1; transform: translate(0,0);}
+/*scene05 end*/
+
+#scene06 {
+    height: 1006px;
+    background: #f5f5f7;
+}
+
+.background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #191919;
+    width: 100%;
+    height: 333px;
+}
+
+.img7{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.play04{
+    position: absolute;
+    left: 44px;
+    top: 12px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone7_1{
+    position: absolute;
+    left: 32px;
+    top: 0;
+}
+
+.play05{
+    position: absolute;
+    left: 805px;
+    top: 12px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone7_2{
+    position: absolute;
+    left: 793px;
+    top: 0;
+}
+
+.play08{
+    position: absolute;
+    left: 1570px;
+    top: 12px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone7_3{
+    position: absolute;
+    left: 1558px;
+    top: 0;
+}
+/*scene06 end*/
+
+#scene07 {
+    height: 2716px;
+    background: #f5f5f7;
+}
+
+.img8{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img8_1{
+    position: absolute;
+    left: 262px;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene07 .img8_1.on{opacity: 1; transform: translate(0,0);}
+
+.play09{
+    position: absolute;
+    left: 445px;
+    top: 337px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone8_1{
+    position: absolute;
+    left: 429px;
+    top: 321px;
+}
+
+.play10{
+    position: absolute;
+    left: 445px;
+    bottom: 349px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone8_2{
+    position: absolute;
+    left: 429px;
+    bottom: 334px;
+}
+/*scene07 end*/
+
+#scene08 {
+    height: 2032px;
+    background: #f5f5f7;
+}
+
+.img9{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img9_1{
+    position: absolute;
+    left: 262px;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene08 .img9_1.on{opacity: 1; transform: translate(0,0);}
+
+.play11{
+    position: absolute;
+    left: 634px;
+    top: 331px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone9_1{
+    position: absolute;
+    left: 622px;
+    top: 319px;
+}
+
+.play12{
+    position: absolute;
+    left: 634px;
+    bottom: 345px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone9_2{
+    position: absolute;
+    left: 622px;
+    bottom: 334px;
+}
+
+.play13{
+    position: absolute;
+    left: 994px;
+    bottom: 345px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone9_3{
+    position: absolute;
+    left: 982px;
+    bottom: 334px;
+}
+
+.play14{
+    position: absolute;
+    left: 1354px;
+    bottom: 345px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone9_4{
+    position: absolute;
+    left: 1342px;
+    bottom: 334px;
+}
+/*scene08 end*/
+
+#scene09 {
+    height: 2097px;
+    background: #191919;
+}
+
+.img10{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img10_1{
+    position: absolute;
+    left: 264px;
+    top: 116px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene09 .img10_1.on{opacity: 1; transform: translate(0,0);}
+
+.img10_2{
+    position: absolute;
+    left: 264px;
+    bottom: 149px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0,20px);
+}
+
+#scene09 .img10_2.on{opacity: 1; transform: translate(0,0);}
+
+.play15{
+    position: absolute;
+    left: 481px;
+    top: 452px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone10_1{
+    position: absolute;
+    left: 466px;
+    top: 438px;
+}
+
+.play16{
+    position: absolute;
+    left: 1068px;
+    bottom: 633px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.phone10_2{
+    position: absolute;
+    left: 1053px;
+    bottom: 619px;
+}
+/*scene09 end*/
+
