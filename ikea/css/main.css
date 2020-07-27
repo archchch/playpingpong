@@ -10,7 +10,7 @@ body {
     font-family: "Dotum", "Arial", sans-serif;
     font-size: 12px;
     color: #333;
-    background: white
+    background: #fff;
 }
 
 .posNum {
@@ -51,11 +51,12 @@ body {
 }
 
 #header {
-    width: 100%;
+    width: 1920px;
     height: 92px;
     background: #fff;
     position: fixed;
-    right: 0;
+    left: 50%;
+    margin-left: -960px;
     top: 0;
     z-index: 9999;
 }
@@ -91,7 +92,8 @@ body {
 
 #receipt{
     position: fixed;
-    left: 0;
+    left: 50%;
+    margin-left: -960px;
     top: -4500px;
     z-index: 9999;
 }
@@ -99,10 +101,19 @@ body {
 /*receipt end*/
 
 
+#scene01 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene01 {
+    position : relative;
+    width: 1920px;
     height: 3389px;
-    background: #fff;
+    background: #ffffff;
 }
 
 
@@ -273,10 +284,23 @@ body {
 
 /*scene01 end*/
 
+
 #scene02 {
-    height: 2751px;
-    background: #fff;
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+#scene02 {
+    position : relative;
+    width: 1920px;
+    height: 2751px;
+    background: #ffffff;
+}
+
+
 
 #contents02{
     margin-left: 337px;
@@ -495,12 +519,22 @@ body {
 
 /*scene02 end*/
 
-
+#scene03 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene03 {
+    position : relative;
+    width: 1920px;
     height: 1057px;
-    background: #fff;
+    background: #ffffff;
 }
+
+
 
 .box9{
     position: relative;
@@ -560,9 +594,20 @@ body {
 /*scene03 end*/
 
 #scene04 {
-    height: 1130px;
-    background: #fff;
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+#scene04 {
+    position : relative;
+    width: 1920px;
+    height: 1130px;
+    background: #ffffff;
+}
+
 
 #contents04{
     width: 1306px;
@@ -613,11 +658,22 @@ body {
 
 /*scene04 end*/
 
+#scene05 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene05 {
+    position : relative;
+    width: 1920px;
     height: 1143px;
-    background: #fff;
+    background: #ffffff;
 }
+
+
 
 #sc05_slides{
     margin-left: 337px;
@@ -654,12 +710,21 @@ body {
 
 /*scene05 end*/
 
-
+#scene06 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene06 {
+    position : relative;
+    width: 1920px;
     height: 3481px;
-    background: #fff;
+    background: #ffffff;
 }
+
 
 .box11 { width:409px; height:547px; position:absolute; top:208px; left:377px; cursor:pointer;}
 .box11 img { width:100%; height:100%; border:0px; display:block; position:absolute; top:0px; left:0px; transition: opacity .3s;}
@@ -723,10 +788,22 @@ body {
 
 /*scene06 end*/
 
+
 #scene07 {
-    height: 684px;
-    background: #fff;
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+#scene07 {
+    position : relative;
+    width: 1920px;
+    height: 684px;
+    background: #ffffff;
+}
+
 
 .banner{
     margin-left: 337px;
@@ -788,10 +865,20 @@ body {
 /*scene07 end*/
 
 #footer {
-    height: 201px;
-    background: #fff;
-    position: relative
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+#footer {
+    position : relative;
+    width: 1920px;
+    height: 201px;
+    background: #ffffff;
+}
+
 
 #inner{}
 
@@ -866,20 +953,7 @@ body {
 /*footer end*/
 
 
-/*#intro{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    position: fixed;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    background: #fff;*/
-/*    z-index: 9999999999;*/
-/*}*/
 
-/*#intro .intro_video{*/
-/*    width: 1920px;*/
-/*    height: 1080px;*/
-/*}*/
 
 
 #pop01{
@@ -960,6 +1034,8 @@ body {
     right: 350px;
     top: 240px;
     cursor: pointer;
+
+
 }
 
 /*pop01 end*/

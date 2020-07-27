@@ -10,7 +10,7 @@ body {
     font-family: "Dotum", "Arial", sans-serif;
     font-size: 12px;
     color: #333;
-    background: white
+    background: #fff;
 }
 
 .posNum {
@@ -51,11 +51,12 @@ body {
 }
 
 #header {
-    width: 100%;
+    width: 1920px;
     height: 82px;
     background: #ffffff;
     position: fixed;
-    left: 0;
+    left: 50%;
+    margin-left: -960px;
     top: 0;
     z-index: 9999;
 }
@@ -81,16 +82,45 @@ body {
 
 #header .logo1{
     position: absolute;
-    right: 128px;
+    left: 1485px;
     top: 29px;
 }
 /*header end*/
 
+.top_button{
+    position: fixed;
+    right: 2%;
+    bottom: 50px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 1s;
+    opacity : 0;
+}
+
+.top_button.on {
+    opacity: 1;
+}
+
+
+
+
 
 #scene01 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene01 {
+    position : relative;
+    width: 1920px;
     height: 1112px;
     background: #ffffff;
 }
+
+
 
 #scene01 .video1{
     left: 0;
@@ -112,11 +142,22 @@ body {
 }
 /*scene01 end*/
 
+#scene02 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene02 {
+    position : relative;
+    width: 1920px;
     height: 1249px;
     background: #fff;
 }
+
+
 
 #main_slides{
     width: 1920px;
@@ -208,9 +249,20 @@ body {
 /*scene02 end*/
 
 #scene03 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene03 {
+    position : relative;
+    width: 1920px;
     height: 1818px;
     background: #fff;
 }
+
 
 .title2{
     position: absolute;
@@ -263,9 +315,20 @@ body {
 /*scene03 end*/
 
 #scene04 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene04 {
+    position : relative;
+    width: 1920px;
     height: 1226px;
     background: #fff;
 }
+
 
 #main_slides2{
     width: 1920px;
@@ -342,11 +405,21 @@ body {
 
 /*scene04 end*/
 
+#scene05 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene05 {
+    position : relative;
+    width: 1920px;
     height: 2664px;
     background: #fff;
 }
+
 
 .banner1{
     position: absolute;
@@ -431,6 +504,16 @@ body {
 /*scene05 end*/
 
 #scene06 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene06 {
+    position : relative;
+    width: 1920px;
     height: 1206px;
     background: #fff;
 }
@@ -463,9 +546,20 @@ body {
 /*scene06 end*/
 
 #scene07 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene07 {
+    position : relative;
+    width: 1920px;
     height: 1546px;
     background: #fff;
 }
+
 
 #main_slides3{
     width: 1920px;
@@ -520,9 +614,21 @@ body {
 /*scene07 end*/
 
 #scene08 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene08 {
+    position : relative;
+    width: 1920px;
     height: 886px;
     background: #fff;
 }
+
+
 
 .button7{
     position: absolute;
@@ -548,9 +654,20 @@ body {
 /*scene08 end*/
 
 #scene09 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene09 {
+    position : relative;
+    width: 1920px;
     height: 2483px;
     background: #fff;
 }
+
 
 .banner3{
     position: absolute;
@@ -608,6 +725,16 @@ body {
 /*scene09 end*/
 
 #scene10 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene10 {
+    position : relative;
+    width: 1920px;
     height: 944px;
     background: #fff;
 }
@@ -671,27 +798,22 @@ body {
     cursor: pointer;
 }
 
-.top_button{
-    position: fixed;
-    right: 2%;
-    bottom: 50px;
-    z-index: 999;
-    cursor: pointer;
-    transition: all 1s;
-    opacity : 0;
-}
-
-.top_button.on {
-    opacity: 1;
-}
-
 /*scene10 end*/
 
 
 #footer {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#footer {
+    position : relative;
+    width: 1920px;
     height: 629px;
     background: #fff;
-    position: relative
 }
 
 .foot{

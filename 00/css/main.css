@@ -10,7 +10,7 @@ body {
     font-family: "Dotum", "Arial", sans-serif;
     font-size: 12px;
     color: #333;
-    background: #191919;
+    background: #000;
 }
 
 .posNum {
@@ -55,27 +55,24 @@ body {
 
 #scene01 {
     height: 1082px;
-    background: #f5f5f7;
-}
-
-.img1{
-    position: absolute;
-    left: 0;
-    top: 0;
+    background: url("../img/1.jpg") no-repeat center;
 }
 /*scene01 end*/
 
 
-
 #scene02 {
-    height: 3344px;
-    background: #191919;
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.img2{
-    position: absolute;
-    left: 0;
-    top: 0;
+#scene02 {
+    position : relative;
+    width: 1920px;
+    height: 3344px;
+    background: #191919 url("../img/2.jpg") no-repeat center;
 }
 
 .img2_1{
@@ -127,14 +124,18 @@ body {
 /*scene02 end*/
 
 #scene03 {
-    height: 5403px;
-    background: #191919;
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.img3{
-    position: absolute;
-    left: 0;
-    top: 0;
+#scene03 {
+    position : relative;
+    width: 1920px;
+    height: 5403px;
+    background: #191919 url("../img/3.jpg") no-repeat center;
 }
 
 #scene03 .video1{
@@ -181,14 +182,18 @@ body {
 /*scene03 end*/
 
 #scene04 {
-    height: 6535px;
-    background: #f5f5f7;
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.img4{
-    position: absolute;
-    left: 0;
-    top: 0;
+#scene04 {
+    position : relative;
+    width: 1920px;
+    height: 6535px;
+    background: #f5f5f7 url("../img/4.jpg") no-repeat center;
 }
 
 .img4_1{
@@ -215,14 +220,18 @@ body {
 /*scene04 end*/
 
 #scene05 {
-    height: 1771px;
-    background: #191919;
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.img5{
-    position: absolute;
-    left: 0;
-    top: 0;
+#scene05 {
+    position : relative;
+    width: 1920px;
+    height: 1771px;
+    background: #191919 url("../img/6.jpg") no-repeat center;
 }
 
 .img5_1{

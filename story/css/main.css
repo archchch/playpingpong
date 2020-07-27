@@ -1,15 +1,20 @@
 
 #fullpage > section {
+    width: 1920px;
     height: 980px;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
 #header {
-    width: 100%;
+    width: 1920px;
     height: 82px;
     background: #ffffff;
     position: fixed;
-    left: 0;
+    left: 50%;
+    margin-left: -960px;
     top: 0;
     z-index: 9999;
 }
@@ -35,7 +40,7 @@
 
 #header .logo1{
     position: absolute;
-    right: 128px;
+    left: 1485px;
     top: 29px;
 }
 

@@ -10,7 +10,7 @@ body {
     font-family: "Dotum", "Arial", sans-serif;
     font-size: 12px;
     color: #333;
-    background: #191919;
+    background: #000;
 }
 
 .posNum {
@@ -55,30 +55,28 @@ body {
 
 #scene01 {
     height: 1082px;
-    background: #f5f5f7;
+    background: url("../img/1.jpg") no-repeat center;
 }
 
-.img1{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
 /*scene01 end*/
 
 
+#scene02 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene02 {
+    position : relative;
+    width: 1920px;
     height: 3487px;
-    background: #191919;
+    background: #191919 url("../img/2.jpg") no-repeat center;
 }
 
-.img2{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.img2_1{
+#scene02 .img2_1{
     position: absolute;
     left: 263px;
     top: 117px;
@@ -89,7 +87,7 @@ body {
 
 #scene02 .img2_1.on{opacity: 1; transform: translate(0,0);}
 
-.img3_1{
+#scene02 .img3_1{
     position: absolute;
     left: 263px;
     top: 751px;
@@ -100,13 +98,13 @@ body {
 
 #scene02 .img3_1.on{opacity: 1; transform: translate(0,0);}
 
-.phone3_1{
+#scene02 .phone3_1{
     position: absolute;
     left: 466px;
     top: 1071px;
 }
 
-.play01{
+#scene02 .play01{
     position: absolute;
     left: 1069px;
     top: 1286px;
@@ -114,13 +112,13 @@ body {
     overflow: hidden;
 }
 
-.phone3_2{
+#scene02 .phone3_2{
     position: absolute;
     left: 1054px;
     top: 1271px;
 }
 
-.play02{
+#scene02 .play02{
     position: absolute;
     left: 1069px;
     bottom: 346px;
@@ -128,7 +126,7 @@ body {
     overflow: hidden;
 }
 
-.phone3_3{
+#scene02 .phone3_3{
     position: absolute;
     left: 1054px;
     bottom: 332px;
@@ -137,20 +135,22 @@ body {
 
 /*scene02 end*/
 
-
+#scene03 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene03 {
+    position : relative;
+    width: 1920px;
     height: 1205px;
-    background: #191919;
+    background: #191919 url("../img/4.jpg") no-repeat center;
 }
 
-.img4{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.img4_1{
+#scene03 .img4_1{
     position: absolute;
     left: 263px;
     top: 0;
@@ -161,7 +161,7 @@ body {
 
 #scene03 .img4_1.on{opacity: 1; transform: translate(0,0);}
 
-.img4_2{
+#scene03 .img4_2{
     position: absolute;
     left: 263px;
     top: 666px;
@@ -173,20 +173,22 @@ body {
 #scene03 .img4_2.on{opacity: 1; transform: translate(0,0);}
 /*scene03 end*/
 
-
+#scene04 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene04 {
+    position : relative;
+    width: 1920px;
     height: 1635px;
-    background: #191919;
+    background: #191919 url("../img/5.jpg") no-repeat center;
 }
 
-.img5{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.img5_1{
+#scene04 .img5_1{
     position: absolute;
     left: 263px;
     top: 0;
@@ -197,7 +199,7 @@ body {
 
 #scene04 .img5_1.on{opacity: 1; transform: translate(0,0);}
 
-.play03{
+#scene04 .play03{
     position: absolute;
     left: 1110px;
     bottom: 348px;
@@ -205,26 +207,29 @@ body {
     overflow: hidden;
 }
 
-.phone5{
+#scene04 .phone5{
     position: absolute;
     left: 1093px;
     bottom: 334px;
 }
 /*scene04 end*/
 
+#scene05 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #scene05 {
+    position : relative;
+    width: 1920px;
     height: 322px;
-    background: #191919;
+    background: #191919 url("../img/6.jpg") no-repeat center;
 }
 
-.img6{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.img6_1{
+#scene05 .img6_1{
     position: absolute;
     left: 262px;
     top: 0;
@@ -237,26 +242,26 @@ body {
 /*scene05 end*/
 
 #scene06 {
-    height: 1006px;
-    background: #f5f5f7;
-}
-
-.background{
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: #191919;
     width: 100%;
-    height: 333px;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.img7{
+#scene06 {
+    position : relative;
+    width: 1920px;
+    height: 1006px;
+}
+
+#scene06 .img7{
     position: absolute;
     left: 0;
     top: 0;
 }
 
-.play04{
+#scene06 .play04{
     position: absolute;
     left: 44px;
     top: 12px;
@@ -264,13 +269,13 @@ body {
     overflow: hidden;
 }
 
-.phone7_1{
+#scene06 .phone7_1{
     position: absolute;
     left: 32px;
     top: 0;
 }
 
-.play05{
+#scene06 .play05{
     position: absolute;
     left: 805px;
     top: 12px;
@@ -278,13 +283,13 @@ body {
     overflow: hidden;
 }
 
-.phone7_2{
+#scene06 .phone7_2{
     position: absolute;
     left: 793px;
     top: 0;
 }
 
-.play08{
+#scene06 .play08{
     position: absolute;
     left: 1570px;
     top: 12px;
@@ -292,7 +297,7 @@ body {
     overflow: hidden;
 }
 
-.phone7_3{
+#scene06 .phone7_3{
     position: absolute;
     left: 1558px;
     top: 0;
@@ -300,17 +305,21 @@ body {
 /*scene06 end*/
 
 #scene07 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene07 {
+    position : relative;
+    width: 1920px;
     height: 2716px;
-    background: #f5f5f7;
+    background: #f5f5f7 url("../img/8.jpg") no-repeat center;
 }
 
-.img8{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.img8_1{
+#scene07 .img8_1{
     position: absolute;
     left: 262px;
     top: 0;
@@ -321,7 +330,7 @@ body {
 
 #scene07 .img8_1.on{opacity: 1; transform: translate(0,0);}
 
-.play09{
+#scene07 .play09{
     position: absolute;
     left: 445px;
     top: 337px;
@@ -329,13 +338,13 @@ body {
     overflow: hidden;
 }
 
-.phone8_1{
+#scene07 .phone8_1{
     position: absolute;
     left: 429px;
     top: 321px;
 }
 
-.play10{
+#scene07 .play10{
     position: absolute;
     left: 445px;
     bottom: 349px;
@@ -343,7 +352,7 @@ body {
     overflow: hidden;
 }
 
-.phone8_2{
+#scene07 .phone8_2{
     position: absolute;
     left: 429px;
     bottom: 334px;
@@ -351,17 +360,21 @@ body {
 /*scene07 end*/
 
 #scene08 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene08 {
+    position : relative;
+    width: 1920px;
     height: 2032px;
-    background: #f5f5f7;
+    background: #f5f5f7 url("../img/9.jpg") no-repeat center;
 }
 
-.img9{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.img9_1{
+#scene08 .img9_1{
     position: absolute;
     left: 262px;
     top: 0;
@@ -372,7 +385,7 @@ body {
 
 #scene08 .img9_1.on{opacity: 1; transform: translate(0,0);}
 
-.play11{
+#scene08 .play11{
     position: absolute;
     left: 634px;
     top: 331px;
@@ -380,13 +393,13 @@ body {
     overflow: hidden;
 }
 
-.phone9_1{
+#scene08 .phone9_1{
     position: absolute;
     left: 622px;
     top: 319px;
 }
 
-.play12{
+#scene08 .play12{
     position: absolute;
     left: 634px;
     bottom: 345px;
@@ -394,13 +407,13 @@ body {
     overflow: hidden;
 }
 
-.phone9_2{
+#scene08 .phone9_2{
     position: absolute;
     left: 622px;
     bottom: 334px;
 }
 
-.play13{
+#scene08 .play13{
     position: absolute;
     left: 994px;
     bottom: 345px;
@@ -408,13 +421,13 @@ body {
     overflow: hidden;
 }
 
-.phone9_3{
+#scene08 .phone9_3{
     position: absolute;
     left: 982px;
     bottom: 334px;
 }
 
-.play14{
+#scene08 .play14{
     position: absolute;
     left: 1354px;
     bottom: 345px;
@@ -422,7 +435,7 @@ body {
     overflow: hidden;
 }
 
-.phone9_4{
+#scene08 .phone9_4{
     position: absolute;
     left: 1342px;
     bottom: 334px;
@@ -430,17 +443,21 @@ body {
 /*scene08 end*/
 
 #scene09 {
+    width: 100%;
+    height: 100%;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#scene09 {
+    position : relative;
+    width: 1920px;
     height: 2097px;
-    background: #191919;
+    background: #191919 url("../img/10.jpg") no-repeat center;
 }
 
-.img10{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.img10_1{
+#scene09 .img10_1{
     position: absolute;
     left: 264px;
     top: 116px;
@@ -451,7 +468,7 @@ body {
 
 #scene09 .img10_1.on{opacity: 1; transform: translate(0,0);}
 
-.img10_2{
+#scene09 .img10_2{
     position: absolute;
     left: 264px;
     bottom: 149px;
@@ -462,7 +479,7 @@ body {
 
 #scene09 .img10_2.on{opacity: 1; transform: translate(0,0);}
 
-.play15{
+#scene09 .play15{
     position: absolute;
     left: 481px;
     top: 452px;
@@ -470,13 +487,13 @@ body {
     overflow: hidden;
 }
 
-.phone10_1{
+#scene09 .phone10_1{
     position: absolute;
     left: 466px;
     top: 438px;
 }
 
-.play16{
+#scene09 .play16{
     position: absolute;
     left: 1068px;
     bottom: 633px;
@@ -484,7 +501,7 @@ body {
     overflow: hidden;
 }
 
-.phone10_2{
+#scene09 .phone10_2{
     position: absolute;
     left: 1053px;
     bottom: 619px;
