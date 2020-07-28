@@ -306,11 +306,11 @@ body {
 .box6:hover img:last-child { opacity:0 }
 
 .button1{
-    position: absolute;
-    left: 824px;
-    top: 1544px;
-    cursor: pointer;
-}
+     position: absolute;
+     left: 824px;
+     top: 1544px;
+     cursor: pointer;
+ }
 
 /*scene03 end*/
 

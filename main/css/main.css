@@ -574,6 +574,20 @@ body {
 
 }
 
+.button1{
+    position: absolute;
+    left: 400px;
+    top: 484px;
+    cursor: pointer;
+}
+
+.button2{
+    position: absolute;
+    left: 609px;
+    top: 484px;
+    cursor: pointer;
+}
+
 
 .title2{
     position: absolute;
@@ -622,6 +636,13 @@ body {
 
 }
 
+.button3{
+    position: absolute;
+    left: 400px;
+    top: 1215px;
+    cursor: pointer;
+}
+
 .title3{
     position: absolute;
     left: 400px;
@@ -668,7 +689,19 @@ body {
 
 }
 
+.button4{
+    position: absolute;
+    left: 400px;
+    top: 1977px;
+    cursor: pointer;
+}
 
+.button5{
+    position: absolute;
+    left: 609px;
+    top: 1977px;
+    cursor: pointer;
+}
 
 .title4{
     position: absolute;
@@ -716,6 +749,13 @@ body {
 
 }
 
+.button6{
+    position: absolute;
+    left: 400px;
+    top: 2644px;
+    cursor: pointer;
+}
+
 
 .title5{
     position: absolute;
@@ -761,6 +801,13 @@ body {
 #scene01 .box5 img:hover {
     transform: scale(1.1);
 
+}
+
+.button7{
+    position: absolute;
+    left: 400px;
+    top: 3375px;
+    cursor: pointer;
 }
 
 .logo8{

@@ -20,6 +20,7 @@ $(document).ready(function () {//HTML 과 CSS 의 모든 로딩이 끝나면 J-Q
         zindex: 9999
     });
 
+
     $('.mail').mouseenter(function(){
         $(this).children('img').attr('src',$(this).children('img').attr('src').replace('mail.png','mail2.png'));
     });
