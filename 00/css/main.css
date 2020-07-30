@@ -141,8 +141,8 @@ body {
 #scene03 .video1{
     left: 262px;
     top: 57px;
-    width: 1402px;
-    height: 750px;
+    width: 1403px;
+    height: 751px;
     overflow: hidden;
     position: relative;
 }
@@ -150,7 +150,7 @@ body {
 #scene03 .video1 > video{position: absolute; left: 70%; margin-left: -1000px; top: -50px;}
 
 #visual{
-    width: 1400px;
+    width: 1403px;
     height: 750px;
     position: absolute;
     left: 262px;
