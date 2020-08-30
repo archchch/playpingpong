@@ -397,14 +397,14 @@ body {
 
 .we{
     position: absolute;
-    right: 78px;
+    left: 1446px;
     bottom: 114px;
     z-index: 2;
 }
 
 .spinimage{
     position: absolute;
-    right: 357px;
+    left: 1459px;
     bottom: 129px;
     z-index: 3;
     -webkit-animation: spin 6s infinite linear;
