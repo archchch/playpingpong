@@ -111,7 +111,7 @@ $(function () {
         }
 
 
-        if (a >= 14500) {
+        if (a >= 14200) {
             $("#scene09 .img10_2").addClass("on");
 
         } else {
